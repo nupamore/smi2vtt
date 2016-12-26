@@ -1,0 +1,36 @@
+{
+  "name": "smi2vtt",
+  "version": "0.0.1",
+  "description": "Convert .smi to .vtt",
+  "main": "./index.js",
+  "author": {
+    "name": "nupamore",
+    "email": "nupamore@gmail.com",
+    "url": "http://nupamore.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nupamore/smi2vtt.git"
+  },
+  "bugs": {
+    "url": "http://github.com/nupamore/smi2vtt/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "smi",
+    "vtt",
+    "subtitle",
+    "caption",
+    "자막"
+  ],
+  "dependencies": {
+    "htmlparser2": "^3.9.2",
+    "iconv-lite": "^0.4.15",
+    "jschardet": "^1.4.1"
+  }
+}
