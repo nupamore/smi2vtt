@@ -26,7 +26,7 @@ app.get( '/smi/:filename', (req, res) => {
 ```
 
 index.html
-``` js
+``` html
 <video width="100%" controls>
   <source src="video/01.mp4" type="video/mp4">
   <track src="smi/01.smi" kind="subtitles" srclang="ko" label="korean" default>
