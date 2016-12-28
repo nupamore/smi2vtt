@@ -1,2 +1,2 @@
 
-module.exports = require('./lib/smi2vtt.js')
+module.exports = require('./dist/smi2vtt.js')

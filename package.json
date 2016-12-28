@@ -1,6 +1,6 @@
 {
   "name": "smi2vtt",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert .smi to .vtt",
   "main": "./index.js",
   "author": {
@@ -23,14 +23,21 @@
   ],
   "keywords": [
     "smi",
+    "sami",
     "vtt",
     "subtitle",
-    "caption",
-    "자막"
+    "caption"
   ],
+  "scripts": {
+    "prepublish": "babel lib -d dist"
+  },
   "dependencies": {
     "htmlparser2": "^3.9.2",
     "iconv-lite": "^0.4.15",
     "jschardet": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
   }
 }
