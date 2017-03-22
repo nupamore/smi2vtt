@@ -3,11 +3,11 @@ Convert `.smi` to `.vtt`
 (This module doesn't supported stylesheet)
 
 
-##Installation
+## Installation
 
     $ npm install smi2vtt
 
-##Usage
+## Usage
 
 server.js
 ``` js
