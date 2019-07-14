@@ -1,6 +1,6 @@
 {
   "name": "smi2vtt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert .smi to .vtt",
   "main": "./index.js",
   "author": {
